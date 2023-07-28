@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+
+@font-face {
+    font-family: 'Love' ;
+    src: url('fontes/Do\ It\ with\ Love.otf') format('opentype'), url('fonts/Do It with Love.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 20px;
+    line-height: 2.2em;
+    background-color: rgb(245, 232, 234);
+    margin: 0;
+}
+
+header{
+    padding: 10px;
+    background-color: rgb(228, 244, 201);
+}
+
+
+h1{
+    font-family: 'Love', cursive;
+    font-weight: normal;
+    font-size: 80px;
+    color: deeppink;
+    padding: 15px;
+    padding: 20px;
+    margin: 50px;
+    text-shadow: 2px 2px 2px white;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+}
+
+.time figure img{
+    width: 150px;
+    height: 150px;
+}
+
+.dropdown-menu{
+    background-color: rgb(228, 244, 201);
+}
+
+.dropdown-item:hover{
+    color: cornflowerblue;
+}
+.nav-link:hover{
+    color: cornflowerblue;
+}
+
+.nav-link, .nav-link dropdown-toggle, .dropdown-item{
+    color: orchid ;
+}
+
+nav li a{
+    font-family: 'Lilita One', cursive;
+    text-decoration: none;
+    list-style: none;
+    color: orchid;
+    padding: 10px;
+}
+
+nav{
+    letter-spacing: 1px;
+    height: 10px;
+}
+h2{
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: deeppink;
+}
+
+section h2{
+    margin: 38px;
+}
+
+
+footer ul{
+    font-family: 'Lilita One', cursive;
+    text-decoration: none;
+    font-weight: lighter;
+    text-align: left;
+    list-style: none;
+}
+
+footer{
+    
+    padding: 10px;
+    background-color: rgb(228, 244, 201);
+}
+
+li img{
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-caption h5{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Lilita One', cursive;
+    font-size: 70px;
+    color: violet;
+    text-shadow: 3px 3px 3px black;
+}
+
+.carousel-caption p{
+    font-family: 'Lilita One', cursive;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.card-body{
+    background-color: rgb(245, 232, 234);
+    color: orchid;
+    text-shadow: 0 0.5px 0 black;
+}
+#carouselExampleCaptions{
+    margin: 30px;
+}
